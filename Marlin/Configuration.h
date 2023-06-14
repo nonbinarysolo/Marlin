@@ -671,11 +671,11 @@
     #define DEFAULT_Ki   1.08
     #define DEFAULT_Kd 114.00
   #endif
-
+  
   // My printer (extruder fan on)
-  #define DEFAULT_Kp 27.02 //24.80
-  #define DEFAULT_Ki 1.63 //1.20
-  #define DEFAULT_Kd 111.78 //128.52
+  #define DEFAULT_Kp 16.75
+  #define DEFAULT_Ki 0.75
+  #define DEFAULT_Kd 93.98
 #endif
 
 /**
