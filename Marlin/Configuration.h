@@ -673,9 +673,9 @@
   #endif
   
   // My printer (extruder fan on)
-  #define DEFAULT_Kp 16.75
-  #define DEFAULT_Ki 0.75
-  #define DEFAULT_Kd 93.98
+  #define DEFAULT_Kp 19.09
+  #define DEFAULT_Ki 1.02
+  #define DEFAULT_Kd 89.14
 #endif
 
 /**
@@ -762,9 +762,9 @@
   //#define DEFAULT_bedKd 305.4
 
   // My Printer with a magnetic surface directly on the heated bed (no more glass)
-  #define DEFAULT_bedKp 105.13  // These new settings are good for a magnetic surface
-  #define DEFAULT_bedKi 19.74   // that's directly attached to the heated bed
-  #define DEFAULT_bedKd 373.20  // It's a little faster than glass 
+  #define DEFAULT_bedKp 42.45
+  #define DEFAULT_bedKi 7.62
+  #define DEFAULT_bedKd 157.65
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
