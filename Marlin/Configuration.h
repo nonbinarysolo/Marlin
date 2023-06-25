@@ -673,9 +673,14 @@
   #endif
   
   // My printer (extruder fan on)
-  #define DEFAULT_Kp 19.09
-  #define DEFAULT_Ki 1.02
-  #define DEFAULT_Kd 89.14
+  //#define DEFAULT_Kp 19.09
+  //#define DEFAULT_Ki 1.02
+  //#define DEFAULT_Kd 89.14
+
+  // The part fan is too powerful
+  #define DEFAULT_Kp 96.04
+  #define DEFAULT_Ki 16.75
+  #define DEFAULT_Kd 137.68
 #endif
 
 /**
@@ -1493,7 +1498,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET {39.00, -26.00, -1.7}
+#define NOZZLE_TO_PROBE_OFFSET {39.00, -26.00, -1.75}
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
