@@ -678,9 +678,9 @@
   //#define DEFAULT_Kd 89.14
 
   // The part fan is too powerful
-  #define DEFAULT_Kp 96.04
-  #define DEFAULT_Ki 16.75
-  #define DEFAULT_Kd 137.68
+  #define DEFAULT_Kp 17.52
+  #define DEFAULT_Ki 0.8
+  #define DEFAULT_Kd 95.43
 #endif
 
 /**
